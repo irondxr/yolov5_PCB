@@ -1,0 +1,9 @@
+# download command/URL (optional)
+#download: bash data/scripts/get_voc.sh
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or3) list: [path1/images/, path2/images/]
+train: ./data/VOCdevkit/images/train/
+val: ./data/VOCdevkit/images/val/
+# number of classes
+nc: 1
+# class names
+names: ['A']
